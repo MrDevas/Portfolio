@@ -11,7 +11,8 @@ import axios from 'axios';
 import profileimage from '../assets/Images/young-adult-enjoying-virtual-date.jpg'
 import triangle from '../assets/Images/293631_triangle_left_icon.png';
 import righttriangle from '../assets/Images/2203515_media_music_play_triangle_icon.png';
-
+import resume from '../assets/Deva.pdf'
+import { Button } from '@mui/material';
 
 export function Portfolio() {
 
@@ -26,13 +27,13 @@ export function Portfolio() {
     Message: "",
   });
 
-  const handleDownload = () => {
-    // Create an anchor element dynamically
-    const link = document.createElement("a");
-    link.href = "..assets/Deva.pdf"; // Path to the PDF file
-    link.download = "Deva.pdf"; // Suggested filename for download
-    link.click(); // Trigger a click event on the anchor element
-  };
+  // const handleDownload = () => {
+  //   // Create an anchor element dynamically
+  //   const link = document.createElement("a");
+  //   link.href = "..assets/Deva.pdf"; // Path to the PDF file
+  //   link.download = "Deva.pdf"; // Suggested filename for download
+  //   link.click(); // Trigger a click event on the anchor element
+  // };
 
 
   const handleChange = (event: any) => {
@@ -48,15 +49,15 @@ export function Portfolio() {
     Navigation("/submit");
   };
 
-  const CertImg1 =()=>{
+  const CertImg1 = () => {
     Cert1("/myportfolio-cert1");
   }
 
-  const CertImg2 =()=>{
+  const CertImg2 = () => {
     Cert2("/cert2");
   }
 
-  const CertImg3 =()=>{
+  const CertImg3 = () => {
     Cert3("/cert3");
   }
 
@@ -86,7 +87,9 @@ export function Portfolio() {
           <div className="Profile-txt-one">Hello, I'm</div>
           <div className="Profile-txt-two">Pradeep M</div>
           <div className="Profile-txt-three">Data Analyst</div>
-          <a className="Profile-txt-btn" onClick={handleDownload}>Download Resume</a>
+          <a className="Profile-txt-btn" download href={resume}>Download Resume</a>
+          {/* <button  className="Profile-txt-btn">Download Resume</button> */}
+          {/* <Button className="Profile-txt-btn" href={resume} >Download Resume</Button> */}
         </div>
       </section><br></br>
       <section id='Skills'>
@@ -285,3 +288,4 @@ export function Portfolio() {
   )
 
 }
+
