@@ -12,7 +12,7 @@ import profileimage from '../assets/Images/young-adult-enjoying-virtual-date.jpg
 import triangle from '../assets/Images/293631_triangle_left_icon.png';
 import righttriangle from '../assets/Images/2203515_media_music_play_triangle_icon.png';
 import resume from '../assets/Deva.pdf'
-import { Button } from '@mui/material';
+
 
 export function Portfolio() {
 
@@ -50,7 +50,7 @@ export function Portfolio() {
   };
 
   const CertImg1 = () => {
-    Cert1("/myportfolio-cert1");
+    Cert1("/cert1");
   }
 
   const CertImg2 = () => {
@@ -87,7 +87,7 @@ export function Portfolio() {
           <div className="Profile-txt-one">Hello, I'm</div>
           <div className="Profile-txt-two">Pradeep M</div>
           <div className="Profile-txt-three">Data Analyst</div>
-          <a className="Profile-txt-btn" download href={resume}>Download Resume</a>
+          <a className="Profile-txt-btn" href={resume}>Download Resume</a>
           {/* <button  className="Profile-txt-btn">Download Resume</button> */}
           {/* <Button className="Profile-txt-btn" href={resume} >Download Resume</Button> */}
         </div>

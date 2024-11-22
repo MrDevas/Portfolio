@@ -14,9 +14,9 @@ function App() {
       <Routes>
       <Route path='/' element={<Portfolio></Portfolio>}></Route>
       <Route path='/submit' element={<Submit></Submit>}></Route>
-      <Route path='/myportfolio-cert1' element={<Cert1></Cert1>}></Route>
-      <Route path='/myportfolio-cert2' element={<Cert2></Cert2>}></Route>
-      <Route path='/myportfolio-cert3' element={<Cert3></Cert3>}></Route>
+      <Route path='/cert1' element={<Cert1></Cert1>}></Route>
+      <Route path='/cert2' element={<Cert2></Cert2>}></Route>
+      <Route path='/cert3' element={<Cert3></Cert3>}></Route>
       </Routes>
     </Router>
       </div>
