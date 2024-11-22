@@ -17,9 +17,9 @@ import resume from '../assets/Deva.pdf'
 export function Portfolio() {
 
   const Navigation = useNavigate();
-  const Cert1 = useNavigate();
-  const Cert2 = useNavigate();
-  const Cert3 = useNavigate();
+  // const Cert1 = useNavigate();
+  // const Cert2 = useNavigate();
+  // const Cert3 = useNavigate();
   const [Data, setData] = useState({
     Name: "",
     Email: "",
@@ -230,7 +230,7 @@ export function Portfolio() {
                 <a href=''><img src={Linkedin} ></img></a>
               </div>
               <div className='mail'>
-            <a href='https://mail.google.com/mail/u/0/#inbox?compose=mailto:devas0860@gmail.com'><img src={Mail} ></img></a>
+            <a href='mailto:devaswork1111@gmail.com'><img src={Mail} ></img></a>
               </div>
               <div className='whatsapp'>
                 <a href='https://api.whatsapp.com/send?phone=918825608368'><img src={Whatsapp} ></img></a>
