@@ -49,7 +49,7 @@ export function Portfolio() {
   };
 
   const CertImg1 =()=>{
-    Cert1("/cert1");
+    Cert1("/myportfolio-cert1");
   }
 
   const CertImg2 =()=>{
