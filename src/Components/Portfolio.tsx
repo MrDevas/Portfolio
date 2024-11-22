@@ -230,7 +230,7 @@ export function Portfolio() {
                 <a href=''><img src={Linkedin} ></img></a>
               </div>
               <div className='mail'>
-            <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbXLtDkFwBWJfhHnlxzFCkZVRvfdQmNQxzNlxRqtfSzXqTXMJWpxbwBcjgmLHZjpFFgCN'><img src={Mail} ></img></a>
+            <a href='https://mail.google.com/mail/u/0/#inbox?compose=mailto:devas'><img src={Mail} ></img></a>
               </div>
               <div className='whatsapp'>
                 <a href='https://api.whatsapp.com/send?phone=918825608368'><img src={Whatsapp} ></img></a>
