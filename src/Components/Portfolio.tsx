@@ -49,17 +49,17 @@ export function Portfolio() {
     Navigation("/submit");
   };
 
-  const CertImg1 = () => {
-    Cert1("/cert1");
-  }
+  // const CertImg1 = () => {
+  //   Cert1("/cert1");
+  // }
 
-  const CertImg2 = () => {
-    Cert2("/cert2");
-  }
+  // const CertImg2 = () => {
+  //   Cert2("/cert2");
+  // }
 
-  const CertImg3 = () => {
-    Cert3("/cert3");
-  }
+  // const CertImg3 = () => {
+  //   Cert3("/cert3");
+  // }
 
   useEffect(() => {
   }, []);
@@ -210,9 +210,9 @@ export function Portfolio() {
           <h1>Awards & Certificates</h1>
         </div>
         <div className='cert-card'>
-          <a href='' onClick={CertImg1}><img src={Cert} className='cert-img1'></img></a>
-          <a href='' onClick={CertImg2}><img src={Cert} className='cert-img2'></img></a>
-          <a href='' onClick={CertImg3}><img src={Cert} className='cert-img3'></img></a>
+          <a href='' ><img src={Cert} className='cert-img1'></img></a>
+          <a href='' ><img src={Cert} className='cert-img2'></img></a>
+          <a href='' ><img src={Cert} className='cert-img3'></img></a>
         </div>
       </section>
 
@@ -230,7 +230,7 @@ export function Portfolio() {
                 <a href=''><img src={Linkedin} ></img></a>
               </div>
               <div className='mail'>
-                <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGKZVgwGNFxpGDwxDtjcKBkFnlGKhNSKrXXmXwNSRgpWDcrbrGmLbxFmQbjsbdRTfLXFHpn'><img src={Mail} ></img></a>
+            <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbXLtDkFwBWJfhHnlxzFCkZVRvfdQmNQxzNlxRqtfSzXqTXMJWpxbwBcjgmLHZjpFFgCN'><img src={Mail} ></img></a>
               </div>
               <div className='whatsapp'>
                 <a href='https://api.whatsapp.com/send?phone=918825608368'><img src={Whatsapp} ></img></a>
